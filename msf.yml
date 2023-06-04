@@ -12,12 +12,12 @@ external-controller: :9090
 
 # 这里的 proxies 粘贴你的节点
 proxies:
-  - {name: 美国洛杉矶, server: 65.49.194.12, port: 16010, type: ss, cipher: aes-256-gcm, password: XQgVvDVgxT7TVonK}
-  - {name: 美国洛杉矶1, server: 65.49.218.70, port: 16010, type: ss, cipher: aes-256-gcm, password: XQgVvDVgxT7TVonK}
-  - {name: 美国洛杉矶2, server: 80.251.214.63, port: 16010, type: vmess, uuid: 667ae39d-3129-4214-8c8a-9c0d50706d50, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本, server: 23.106.141.140, port: 16010, type: vmess, uuid: 667ae39d-3129-4214-8c8a-9c0d50706d50, alterId: 0, cipher: auto, tls: false}
-  - {name: 荷兰, server: 104.193.9.29, port: 16010, type: vmess, uuid: 667ae39d-3129-4214-8c8a-9c0d50706d50, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国弗里蒙特, server: 23.83.224.93, port: 16010, type: vmess, uuid: 667ae39d-3129-4214-8c8a-9c0d50706d50, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国天使, server: 65.49.216.110, port: 17571, type: ss, cipher: aes-256-gcm, password: PU7vAwRu4yXqHCtN}
+  - {name: 美国洛杉矶, server: 65.49.216.196, port: 17571, type: ss, cipher: aes-256-gcm, password: PU7vAwRu4yXqHCtN}
+  - {name: 美国洛杉矶1, server: 199.180.112.108, port: 17571, type: vmess, uuid: 51a8b45c-210d-4874-8bda-85496a7ab6d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 日本大阪, server: 45.78.60.93, port: 17571, type: vmess, uuid: 51a8b45c-210d-4874-8bda-85496a7ab6d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 荷兰, server: 104.193.10.12, port: 17571, type: vmess, uuid: 51a8b45c-210d-4874-8bda-85496a7ab6d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 美国加利福尼亚州, server: 174.137.57.78, port: 17571, type: vmess, uuid: 51a8b45c-210d-4874-8bda-85496a7ab6d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 
   # --->填写你的节点,格式多种，以下格式clash能识别
 
@@ -55,12 +55,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
 
 
       
@@ -72,12 +72,12 @@ proxy-groups:
     tolerance: 50
 
     proxies:
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
       
   - name: 🌍 国外媒体
     type: select
@@ -85,48 +85,48 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
       
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
       
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
       
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
       
   - name: 📢 谷歌FCM
     type: select
@@ -134,12 +134,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
       
   - name: 🎯 全球直连
     type: select
@@ -157,12 +157,12 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+      - 美国天使
       - 美国洛杉矶
       - 美国洛杉矶1
-      - 美国洛杉矶2
-      - 日本
+      - 日本大阪
       - 荷兰
-      - 美国弗里蒙特
+      - 美国加利福尼亚州
   - name: 🐟 漏网之鱼
     type: select
     proxies:
