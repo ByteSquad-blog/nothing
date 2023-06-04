@@ -1,4 +1,4 @@
-
+[server_local]
 shadowsocks = 65.49.216.110:17571, method=aes-256-gcm, password=PU7vAwRu4yXqHCtN, fast-open=false, udp-relay=false, tag=美国天使
 shadowsocks = 65.49.216.196:17571, method=aes-256-gcm, password=PU7vAwRu4yXqHCtN, fast-open=false, udp-relay=false, tag=美国洛杉矶
 vmess = 199.180.112.108:17571, method=chacha20-ietf-poly1305, password=51a8b45c-210d-4874-8bda-85496a7ab6d3, aead=true, fast-open=false, udp-relay=false, tag=美国洛杉矶1
