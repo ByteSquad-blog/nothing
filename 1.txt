@@ -1,6 +1,7 @@
-shadowsocks = 65.49.194.12:16010, method=aes-256-gcm, password=XQgVvDVgxT7TVonK, fast-open=false, udp-relay=false, tag=美国洛杉矶
-shadowsocks = 65.49.218.70:16010, method=aes-256-gcm, password=XQgVvDVgxT7TVonK, fast-open=false, udp-relay=false, tag=美国洛杉矶1
-vmess = 80.251.214.63:16010, method=chacha20-ietf-poly1305, password=667ae39d-3129-4214-8c8a-9c0d50706d50, aead=true, fast-open=false, udp-relay=false, tag=美国洛杉2矶
-vmess = 23.106.141.140:16010, method=chacha20-ietf-poly1305, password=667ae39d-3129-4214-8c8a-9c0d50706d50, aead=true, fast-open=false, udp-relay=false, tag=日本大阪
-vmess = 104.193.9.29:16010, method=chacha20-ietf-poly1305, password=667ae39d-3129-4214-8c8a-9c0d50706d50, aead=true, fast-open=false, udp-relay=false, tag=荷兰阿姆斯特丹
-vmess = 23.83.224.93:16010, method=chacha20-ietf-poly1305, password=667ae39d-3129-4214-8c8a-9c0d50706d50, aead=true, fast-open=false, udp-relay=false, tag=美国弗里蒙特
+
+shadowsocks = 65.49.216.110:17571, method=aes-256-gcm, password=PU7vAwRu4yXqHCtN, fast-open=false, udp-relay=false, tag=美国天使
+shadowsocks = 65.49.216.196:17571, method=aes-256-gcm, password=PU7vAwRu4yXqHCtN, fast-open=false, udp-relay=false, tag=美国洛杉矶
+vmess = 199.180.112.108:17571, method=chacha20-ietf-poly1305, password=51a8b45c-210d-4874-8bda-85496a7ab6d3, aead=true, fast-open=false, udp-relay=false, tag=美国洛杉矶1
+vmess = 45.78.60.93:17571, method=chacha20-ietf-poly1305, password=51a8b45c-210d-4874-8bda-85496a7ab6d3, aead=true, fast-open=false, udp-relay=false, tag=日本大阪
+vmess = 104.193.10.12:17571, method=chacha20-ietf-poly1305, password=51a8b45c-210d-4874-8bda-85496a7ab6d3, aead=true, fast-open=false, udp-relay=false, tag=荷兰
+vmess = 174.137.57.78:17571, method=chacha20-ietf-poly1305, password=51a8b45c-210d-4874-8bda-85496a7ab6d3, aead=true, fast-open=false, udp-relay=false, tag=美国加利福尼亚州
